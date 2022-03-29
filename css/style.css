@@ -20,3 +20,43 @@ li a{
     color: white;
     margin-left: 1em;
 }
+
+/* BANNER */
+.ms_banner{
+    background-color: aquamarine;
+}
+
+.square{
+    margin-top: 3em;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.ms_b-text{
+    margin-top: .5em;
+    font-size: 2em;
+}
+
+.ms_container{
+    margin-top: 1em;
+}
+
+.ms_col{
+    background-color: white;
+    height: 5px;
+    width: 80px;
+    
+}
+
+.star{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    margin: 0 1em;
+}
+
+.ms_text div{
+    display: inline-block;
+    margin: 1em 0;
+}
