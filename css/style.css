@@ -1,13 +1,12 @@
 /* HEADER */
 header{
     background-color: #3b4754;
-    height: 100px;
     color: white;
 }
 
 .ms_menu,
 p{
-    line-height: 100px;
+    line-height: 80px;
 }
 
 ul li{
@@ -39,14 +38,13 @@ li a{
 }
 
 .ms_container{
-    margin-top: 1em;
+    margin: 1em 0;
 }
 
 .ms_col{
     background-color: white;
     height: 5px;
     width: 80px;
-    
 }
 
 .star{
@@ -59,4 +57,22 @@ li a{
 .ms_text div{
     display: inline-block;
     margin: 1em 0;
+}
+
+/* MAIN */
+section{
+    padding: 1em 0;
+}
+
+.ms_img{
+    height: 400px;
+}
+
+.sect-2{
+    background-color: #12ba82;
+    color: white;
+}
+
+.ms_btn{
+    margin-top: 1em;
 }
