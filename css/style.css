@@ -22,7 +22,7 @@ li a{
 
 /* BANNER */
 .ms_banner{
-    background-color: aquamarine;
+    background-color: #12ba82;
 }
 
 .square{
@@ -87,3 +87,17 @@ section{
 .ms_margin{
     margin-top: 5em;
 }
+
+/* FOOTER */
+footer{
+    color: white;
+}
+.foot{
+    padding: 3em 0;
+    background-color: #3f455c;
+}
+
+.foot-2{
+    background-color: #2d3741;
+}
+
