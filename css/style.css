@@ -76,3 +76,14 @@ section{
 .ms_btn{
     margin-top: 1em;
 }
+
+.ms_hr{
+    height: 2px;
+    background-color: grey;
+    margin: 0 auto;
+    margin-top: .5em;
+}
+
+.ms_margin{
+    margin-top: 5em;
+}
