@@ -7,8 +7,7 @@ header{
 .ms_menu i,
 .ms_menu ul,
 .ms_title-header{
-    font-size: 1.5em;
-    line-height: 80px;
+    line-height: 60px;
 }
 
 ul li{
@@ -61,8 +60,9 @@ section,
     padding: 2em 0;
 }
 
-.ms_img{
-    height: 400px;
+.ms_img img{
+    width: 100%;
+    border-radius: 10px;
 }
 
 .sect-2{
@@ -70,7 +70,7 @@ section,
     color: white;
 }
 
-.ms_btn{
+/* .ms_btn{
     margin-top: 3em;
 }
 
@@ -83,6 +83,25 @@ section,
 
 .ms_margin{
     margin-top: 5em;
+} */
+
+.ms_width-container{
+    max-width: 1170px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: black;
 }
 
 /* FOOTER */

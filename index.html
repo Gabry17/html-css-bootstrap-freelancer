@@ -31,9 +31,9 @@
 
                    <div class="d-none d-md-flex justify-content-end">
                        <ul>
-                           <li><a href="">ciao</a></li>
-                           <li><a href="">ciao</a></li>
-                           <li><a href="">ciao</a></li>
+                           <li><a href="">PORTFOLIO</a></li>
+                           <li><a href="">ABOUT</a></li>
+                           <li><a href="">CONTACT</a></li>
                        </ul>
                    </div>
                </div>
@@ -47,16 +47,16 @@
            </div>
            <div class="ms_b-text">START BOOTSTRAP</div>
            
-            <div class="ms_container d-flex align-items-center">
+            <div class="ms_container d-flex align-items-center justify-content-center">
                 <div class="ms_col bg-light"></div>
                 <div class="star"><i class="fas fa-star"></i></div>
                 <div class="ms_col bg-light"></div>
             </div>
 
             <div class="ms_text ">
-                <div>ciao</div>
-                <div>ciao</div>
-                <div>ciao</div>
+                <div>GRAPHIC ARTIST</div>
+                <div>- WEB DESIGNER -</div>
+                <div>ILLUSTRATOR</div>
             </div>
             
        </div>
@@ -67,7 +67,7 @@
    <!-- MAIN -->
    <main>
        <section>
-        <div class="text-center">PORTFOLIO</div>
+        <h2 class="text-center">PORTFOLIO</h2>
 
         <div class="ms_container d-flex justify-content-center align-items-center">
             <div class="ms_col bg-dark"></div>
@@ -76,19 +76,31 @@
         </div>
 
         <div class="container">
-            <div class="row g-3">
-                <div class="col-12 col-md-6 col-lg-4 bg-danger ms_img "></div>
-                <div class="col-12 col-md-6 col-lg-4 bg-primary ms_img "></div>
-                <div class="col-12 col-md-6 col-lg-4 bg-success ms_img "></div>
-                <div class="col-12 col-md-6 col-lg-4 bg-danger ms_img "></div>
-                <div class="col-12 col-md-6 col-lg-4 bg-primary ms_img "></div>
-                <div class="col-12 col-md-6 col-lg-4 bg-danger ms_img "></div>
+            <div class="row g-3 ms_img">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/cabin.png" alt="cabin">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/cake.png" alt="cabin">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <img src="img/circus.png" alt="cabin">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/game.png" alt="cabin">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/safe.png" alt="cabin">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/submarine.png" alt="cabin">
+                </div>
             </div>
         </div>
        </section>
 
        <section class="sect-2">
-        <div class="text-center">ABOUT</div>
+        <h2 class="text-center">ABOUT</h2>
 
         <div class="ms_container d-flex justify-content-center align-items-center">
             <div class="ms_col bg-light"></div>
@@ -96,7 +108,7 @@
             <div class="ms_col bg-light"></div>
         </div>
 
-        <div class="container">
+        <div class="ms_width-container">
             <div class="row gy-3">
                 <div class="col-12 col-md-6">
                     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eveniet fuga qui facere, dicta impedit aut numquam fugiat magnam sequi maxime nisi distinctio, omnis fugit voluptates cumque totam. Minima, autem!</div>
@@ -107,13 +119,13 @@
             </div>
         </div>
 
-        <div class="text-center ms_btn">
-            <button class="btn btn-outline-light">Download</button>
+        <div class="text-center">
+            <button class="btn btn-outline-light mt-5">Download</button>
         </div>
        </section>
 
        <section>
-        <div class="text-center">CONTACT ME</div>
+        <h2 class="text-center">CONTACT</h2>
 
         <div class="ms_container d-flex justify-content-center align-items-center">
             <div class="ms_col bg-dark"></div>
@@ -121,34 +133,30 @@
             <div class="ms_col bg-dark"></div>
         </div>
 
-        <div class="container">
+        <div class="ms_width-container">
             <div class="row gy-3">
-                <div class="col-12">
-                    Name
-                    <div class="ms_hr"></div>
-                </div>
-
-                <div class="col-12">
-                    Email
-                    <div class="ms_hr"></div>
-                </div>
-
-                <div class="col-12">
-                    Phone
-                    <div class="ms_hr"></div>
-                </div>
-
-                <div class="col-12">Message</div>
                 
-            </div>
-
-            <div class="row ms_margin">
-                <div class="col-12">
-                    <div class="ms_hr"></div>
-                    <div class="ms_btn">
-                        <button>Send</button>
-                    </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label sr-only">Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
                 </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label sr-only">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label sr-only">Phone</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Phone">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label sr-only">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                    <button class="mt-3 btn btn-outline-success">Send</button>
+                </div>
+                
             </div>
         </div>
 
