@@ -4,8 +4,10 @@ header{
     color: white;
 }
 
-.ms_menu,
-p{
+.ms_menu i,
+.ms_menu ul,
+.ms_title-header{
+    font-size: 1.5em;
     line-height: 80px;
 }
 
@@ -26,10 +28,7 @@ li a{
 }
 
 .square{
-    margin-top: 3em;
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
+    width: 200px;
 }
 
 .ms_b-text{
@@ -42,26 +41,24 @@ li a{
 }
 
 .ms_col{
-    background-color: white;
     height: 5px;
     width: 80px;
+    border-radius: 5px;
 }
 
 .star{
-    height: 30px;
-    width: 30px;
-    background-color: blue;
-    margin: 0 1em;
+    margin: 0 .5em;
+    font-size: 2em;
 }
 
 .ms_text div{
     display: inline-block;
-    margin: 1em 0;
 }
 
 /* MAIN */
-section{
-    padding: 1em 0;
+section,
+.ms_banner{
+    padding: 2em 0;
 }
 
 .ms_img{
@@ -74,7 +71,7 @@ section{
 }
 
 .ms_btn{
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 .ms_hr{
@@ -99,5 +96,12 @@ footer{
 
 .foot-2{
     background-color: #2d3741;
+}
+
+.ms_list-icon i{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: .5em;
+    padding: 1em;
 }
 
